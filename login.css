@@ -1,0 +1,64 @@
+.container{
+
+	width: 350px;
+	height: 400px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+}
+body{
+	background: url(login.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.image{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#box{
+    border-style:solid;
+    border-color: black;
+    border-radius: 15px;
+	background: #366077;
+	width: 350px;
+	height: 400px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+}
+.reg,.pass,.user,.email,.no,.SubmitBtn{
+    margin: 10px 0;
+    padding: 5px 5px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: medium;
+    
+}
+.reg{
+    font-size:x-large;
+}
+#pass,#user,#email,#no{
+    height: 35px;
+	width: 150px;
+	border: none;
+  padding-left: 20px;
+  border-radius: 10px;
+  
+}
+#SubmitBtn,#otp{
+    height: 30px;
+	width: 75px;
+	border: none;
+    margin: 10px 5px 5px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
